@@ -34,7 +34,8 @@ IRIS Telecommunication Poland Sp. z o.o.
 st.set_page_config(
     page_title="PowerQuery chained text replace generator",
     page_icon="💻",
-    layout="wide",menu_items={'About': _about})
+    layout="wide",
+    menu_items={'About': _about})
 
 
 
