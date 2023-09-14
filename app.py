@@ -53,8 +53,8 @@ with c1:
 @st.cache_data
 def load_data():
     data = {
-        "old_text": [None],
-        "new_text": [None]
+        "old_text": [],
+        "new_text": []
     }
     df = pd.DataFrame(data)
     df["old_text"] = df["old_text"].astype("str")
