@@ -1,5 +1,4 @@
 import streamlit as st
-from jinja2 import Template
 import pandas as pd
 
 
@@ -90,6 +89,6 @@ with c2:
     st.data_editor(df, key="data_editor", num_rows="dynamic")
 
 st.write("your query:")
-st.code(create_pq())
+st.code(create_pq(), language="powerquery")
 
 
